@@ -1,59 +1,41 @@
-# 🌡 CORE ENGINE — THERMOS GOVERNANCE (CANONICAL)
+# THERMOS — Thermal Dynamics Engine
 
-File: `verticals/thermos/CORE_THERMOS_ENGINE_GOVERNANCE.md`  
-Engine Key: **THERMOS**  
-Authority Level: Engine Governance (Binding)  
-Status: ✅ BINDING | ✅ NON-OPTIONAL  
+THERMOS computes thermal-domain physics truth.
 
-## 1. Authority & Inheritance
+---
 
-THERMOS inherits CORE law and may not override it.
+## Engine Role
 
-## 2. Scope
+**Engine Type:** TRUTH_ENGINE  
+**Domain:** Heat transfer & thermal behavior
 
-THERMOS models thermal behavior:
-- diffusion, convection, radiative transfer
-- temperature fields and gradients
-- heat flux
-- thermal expansion stress indicators
-- coupling inputs from other engines (declared only)
+---
 
-## 3. Non-Scope
+## What THERMOS Computes
 
-THERMOS may NOT:
-- claim medical safety thresholds
-- infer biological outcomes
-- access data outside authorized run scope
+- temperature fields
+- gradients and heat flux
+- conduction, convection, radiation (as declared)
+- phase-state indicators
 
-## 4. Determinism
+---
 
-THERMOS must log:
-- material properties
-- boundary conditions
-- solver parameters
-- timestep and tolerance configs
+## Prohibitions
 
-## 5. Required Artifacts
+THERMOS does NOT:
+- provide medical or safety verdicts
+- issue operational advice
+- access networks
+- publish independently
 
-- `ENGINE_MANIFEST.json`
-- `RUN_CONDITIONS.json`
-- `SHA256SUMS.txt`
-- `TEMPERATURE_FIELD.json`
-- `GRADIENTS.json`
-- `HEAT_FLUX.json`
-- `EXPANSION_STRESS.json` (if computed)
-- `ARTIFACT_INDEX.json`
+---
 
-## 6. Safety & Misuse Controls
+## Outputs
 
-THERMOS outputs must:
-- include uncertainty or tolerance declarations
-- require vertical-lens routing for regulated interpretations
+THERMOS emits sealed thermal artifacts verified by CORE.
 
-## 7. Publishing Rules
+---
 
-Sealed run required.
+## Governance
 
-## 8. Amendments
-
-Governance review required.
+THERMOS is bound by CORE governance and engine registry law.
